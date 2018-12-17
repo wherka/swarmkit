@@ -341,6 +341,9 @@ message ContainerSpec {
 	// to the container OS's default - generally 60, or the value predefined in
 	// the image; set to -1 to unset a previously set value
 	google.protobuf.Int64Value memory_swappiness = 28;
+
+	// Privileged gives extended privileges to the container
+	bool privileged = 29;
 }
 
 // EndpointSpec defines the properties that can be configured to

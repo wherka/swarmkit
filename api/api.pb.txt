@@ -4919,6 +4919,13 @@ file {
       type_name: ".google.protobuf.Int64Value"
       json_name: "memorySwappiness"
     }
+    field {
+      name: "privileged"
+      number: 29
+      label: LABEL_OPTIONAL
+      type: TYPE_BOOL
+      json_name: "privileged"
+    }
     nested_type {
       name: "LabelsEntry"
       field {
